@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.card{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.card-ris{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+#sent > p{
+    margin: 0;
+}
+.vos{
+    position: relative;
+    width: 1260px;
+    border: 1px solid black;
+    left: 134px;
+}
+.div-xd{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.div-xd > img{
+    margin-top: -20px;
+
+}
+.one{
+    margin-top: 90px;
+
+}
+.one > h1{
+    margin: 0;
+
+}
+.one > p{
+    margin: 0;
+
+}
+.two > h1{
+    margin: 0;
+
+}
+.two > p{
+    margin: 0;
+
+}
+.three > h1{
+    margin: 0;
+
+}
+.three > p{
+    margin: 0;
+
+}
+.three{
+    margin-top: 35px;
+}
+.two{
+    margin-top: 35px;
+}
+@media(max-width: 600px)
+{
+    .vos{
+        width: 100%;
+        left: 0;
+    }
+    .div-xd{
+        margin-top: 30px ;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+    
+    }
+}
